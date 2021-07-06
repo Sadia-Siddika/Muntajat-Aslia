@@ -4,17 +4,20 @@ body{
 }
 h1{
     font-size: 50px;
+    color: gray;
+
 }
 .teal-color{
     color: teal;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
     }
 .half-width img{
     width: 80%;
@@ -31,5 +34,40 @@ section{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     
-    
+}
+h2{
+    color: gray;
+    font-size: 30px;
+}
+.recipe-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 50%;
+    padding-left: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+
+}
+.box-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 80%;
+    padding-left: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+footer h2{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+.footer-background{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
 }
